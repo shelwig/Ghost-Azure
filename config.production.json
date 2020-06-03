@@ -9,6 +9,15 @@
     "paths": {
         "contentPath": "content/"
     },
+    "storage": {
+        "active": "ghost-azure-storage",
+        "ghost-azure-storage": {
+          "connectionString": "YourConnectionStringHere",
+          "container": "YourOptionalContainerName",
+          "cdnUrl": "YourCDNEndpointDomain",
+          "useHttps": "true"
+        }
+      },
     "caching": {
 		"frontend": {
 			"maxAge": 600
